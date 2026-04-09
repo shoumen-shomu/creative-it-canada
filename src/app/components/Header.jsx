@@ -34,12 +34,14 @@ const Header = () => {
         <Container>
           <div className="flex py-10 items-center justify-between">
             <div className="">
-              <Image
-                src="/images/creativelogo.png"
-                alt="creativelogo"
-                width={203}
-                height={44}
-              />
+              <Link href={"/"}>
+                <Image
+                  src="/images/creativelogo.png"
+                  alt="creativelogo"
+                  width={203}
+                  height={44}
+                />
+              </Link>
             </div>
             <div className="">
               <ul className="flex gap-10">
@@ -61,14 +63,14 @@ const Header = () => {
               </ul>
             </div>
             <div className="flex gap-3">
-              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14]">
-                <FaFacebookF />
+              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14] border-white border group hover:bg-white hover:border-[#CF0000] duration-300">
+                <FaFacebookF className="text-white group-hover:text-[#CF0000]" />
               </div>
-              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14]">
-                <FaLinkedinIn />
+              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14] border-white border group hover:bg-white hover:border-[#CF0000] duration-300">
+                <FaLinkedinIn className="text-white group-hover:text-[#CF0000]" />
               </div>
-              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14]">
-                <FaTwitter />
+              <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14]  border-white border group hover:bg-white hover:border-[#CF0000] duration-300">
+                <FaTwitter className="text-white group-hover:text-[#CF0000]" />
               </div>
             </div>
           </div>
