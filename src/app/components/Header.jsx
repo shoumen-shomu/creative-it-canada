@@ -6,6 +6,7 @@ import Image from "next/image";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -42,11 +43,21 @@ const Header = () => {
             </div>
             <div className="">
               <ul className="flex gap-10">
-                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Home</li>
-                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">About us</li>
-                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Service</li>
-                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Freelancing</li>
-                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Contact</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">
+                  <Link href={"/"}>Home</Link>
+                </li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">
+                  <Link href={"/aboutus"}>About Us</Link>
+                </li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">
+                  <Link href={"/service"}>Service</Link>
+                </li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">
+                  <Link href={"/freelancing"}>Freelancing</Link>
+                </li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">
+                  <Link href={"/contact"}>Contact</Link>
+                </li>
               </ul>
             </div>
             <div className="flex gap-3">
