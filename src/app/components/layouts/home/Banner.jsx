@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
       <section>
-        <div className="bg-[url('/images/banner.png')] pt-48.25 pb-43 bg-cover bg-no-repeat bg-center">
+        <div className="bg-[url('/images/banner.png')] pt-48.25 pb-43 bg-cover bg-no-repeat bg-center rounded-2xl mx-30.5">
           <Container>
             <h3 className="font-tri font-semibold text-[42px] text-[#FF7E31] leading-[120%] italic">
               The Journey of
