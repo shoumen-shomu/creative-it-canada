@@ -42,11 +42,11 @@ const Header = () => {
             </div>
             <div className="">
               <ul className="flex gap-10">
-                <li>Home</li>
-                <li>About us</li>
-                <li>Service</li>
-                <li>Freelancing</li>
-                <li>Contact</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Home</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">About us</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Service</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Freelancing</li>
+                <li className="font-inter font-semibold text-[18px] text-[#342B27] leading-6 hover:text-[#CF0000] duration-500">Contact</li>
               </ul>
             </div>
             <div className="flex gap-3">
