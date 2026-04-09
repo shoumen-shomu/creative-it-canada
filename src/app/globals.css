@@ -1,10 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-inter: "Inter", sans-serif;
-  --font-hind: "Hind Siliguri", sans-serif;
-   --color-primary: #FF1E1E;
-   
-
-
+  --font-inter: var(--font-inter);
+  --font-hind: var(--font-hind-siliguri);
+  --font-tri: var(--font-trirong);
+  --color-primary: #ff1e1e;
 }
