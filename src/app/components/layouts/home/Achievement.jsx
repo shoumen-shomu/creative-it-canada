@@ -60,7 +60,7 @@ const Achievement = () => {
                   )}
                 </p>
                 <span className="font-inter font-medium text-[24px] text-[#000000] leading-6">
-                  Clients
+                  Projects
                 </span>
               </div>
              <div className="flex flex-col items-center">
@@ -81,7 +81,7 @@ const Achievement = () => {
                   )}
                 </p>
                 <span className="font-inter font-medium text-[24px] text-[#000000] leading-6">
-                  Clients
+                  Employees 
                 </span>
               </div>
               <div className="flex flex-col items-center">
@@ -102,7 +102,7 @@ const Achievement = () => {
                   )}
                 </p>
                 <span className="font-inter font-medium text-[24px] text-[#000000] leading-6">
-                  Clients
+                  Awards
                 </span>
               </div>
             </div>
