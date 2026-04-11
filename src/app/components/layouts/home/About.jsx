@@ -9,7 +9,7 @@ const About = () => {
       <section>
         <div className="w-360 bg-[#F7FCE7] rounded-3xl pt-9.5 pb-15 mt-25 mx-auto">
           <Container>
-            <div className="">
+            <div className=" flex justify-between items-center">
               <div className="">
                 <p className="font-tri font-bold text-[32px] text-primary leading-[120%] italic">
                   We started back in 2008.
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
               </div>
               <div className="">
-                <Image src={aboutImg} alt="aboutImg" width={638} height={610} />
+                <Image src="/images/aboutImg.png" alt="aboutImg" width={638} height={610} />
               </div>
             </div>
           </Container>
