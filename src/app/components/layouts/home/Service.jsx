@@ -21,6 +21,13 @@ const Service = () => {
                 global market.
               </p>
             </div>
+            <div className="mt-7.5 text-center">
+              <div className="group inline-block">
+                <p className="font-inter font-semibold text-[24px] text-black leading-6.5 tracking-[0.2px] group-hover:py-4 group-hover:px-16 group-hover:bg-primary group-hover:rounded-[29px] ">
+                  Courses
+                </p>
+              </div>
+            </div>
           </Container>
         </div>
       </section>
