@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../Container";
+import Image from "next/image";
 
 const Service = () => {
   return (
@@ -30,6 +31,59 @@ const Service = () => {
               <div className="group py-4 px-16 bg-white text-white border-white rounded-[29px] border hover:border-primary hover:bg-primary duration-300 inline-block">
                 <p className="font-inter font-semibold text-[24px] text-[#000000] group-hover:text-white leading-6.5 tracking-[0.2px] ">
                   Projects
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-7.5">
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+                <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
+                  <Image
+                    src="/images/serviceImgone.png"
+                    alt="serviceImgone"
+                    width={90}
+                    height={90}
+                  />
+                </div>
+                <h3 className="font-inter font-bold text-[32px] text-[#1F1E1E] leading-[130%] w-66.25 mt-15 mb-4">
+                  Branding Identity Design
+                </h3>
+                <p className="font-inter font-normal text-base text-[#605F62] leading-6.5 w-[320px]">
+                  We have designed our courses with the most demanding
+                  professional skills.
+                </p>
+              </div>
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+                <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
+                  <Image
+                    src="/images/serviceImgone.png"
+                    alt="serviceImgone"
+                    width={90}
+                    height={90}
+                  />
+                </div>
+                <h3 className="font-inter font-bold text-[32px] text-[#1F1E1E] leading-[130%] w-66.25 mt-15 mb-4">
+                  Branding Identity Design
+                </h3>
+                <p className="font-inter font-normal text-base text-[#605F62] leading-6.5 w-[320px]">
+                  We have designed our courses with the most demanding
+                  professional skills.
+                </p>
+              </div>
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+                <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
+                  <Image
+                    src="/images/serviceImgone.png"
+                    alt="serviceImgone"
+                    width={90}
+                    height={90}
+                  />
+                </div>
+                <h3 className="font-inter font-bold text-[32px] text-[#1F1E1E] leading-[130%] w-66.25 mt-15 mb-4">
+                  Branding Identity Design
+                </h3>
+                <p className="font-inter font-normal text-base text-[#605F62] leading-6.5 w-[320px]">
+                  We have designed our courses with the most demanding
+                  professional skills.
                 </p>
               </div>
             </div>
