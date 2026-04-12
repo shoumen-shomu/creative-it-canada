@@ -34,7 +34,7 @@ const Service = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-7.5">
+            <div className="flex gap-7.5 mt-15">
               <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
                 <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
                   <Image
