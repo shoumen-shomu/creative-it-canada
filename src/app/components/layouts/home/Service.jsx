@@ -35,7 +35,7 @@ const Service = () => {
               </div>
             </div>
             <div className="flex gap-7.5 mt-15">
-              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px] shadow-[0px_34px_44px_0px_rgba(0,0,0,0.02)]">
                 <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
                   <Image
                     src="/images/serviceImgone.png"
@@ -52,34 +52,34 @@ const Service = () => {
                   professional skills.
                 </p>
               </div>
-              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px] shadow-[0px_34px_44px_0px_rgba(0,0,0,0.02)]">
                 <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
                   <Image
-                    src="/images/serviceImgone.png"
+                    src="/images/serviceimgtwo.png"
                     alt="serviceImgone"
                     width={90}
                     height={90}
                   />
                 </div>
                 <h3 className="font-inter font-bold text-[32px] text-[#1F1E1E] leading-[130%] w-66.25 mt-15 mb-4">
-                  Branding Identity Design
+                  Web Application Development
                 </h3>
                 <p className="font-inter font-normal text-base text-[#605F62] leading-6.5 w-[320px]">
                   We have designed our courses with the most demanding
                   professional skills.
                 </p>
               </div>
-              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px]">
+              <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px] shadow-[0px_34px_44px_0px_rgba(0,0,0,0.02)]">
                 <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
                   <Image
-                    src="/images/serviceImgone.png"
+                    src="/images/serviceimgthree.png"
                     alt="serviceImgone"
                     width={90}
                     height={90}
                   />
                 </div>
                 <h3 className="font-inter font-bold text-[32px] text-[#1F1E1E] leading-[130%] w-66.25 mt-15 mb-4">
-                  Branding Identity Design
+                  Social Media Marketing
                 </h3>
                 <p className="font-inter font-normal text-base text-[#605F62] leading-6.5 w-[320px]">
                   We have designed our courses with the most demanding
