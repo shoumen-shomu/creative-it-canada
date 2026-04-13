@@ -9,7 +9,7 @@ const Service = () => {
         <div className="mt-25">
           <Container>
             <div className="text-center">
-              <h2 className="font-inter font-bold text-[48px] text-[#1F1E1E] leading-13.5 pb-[32px]">
+              <h2 className="font-inter font-bold text-[48px] text-[#1F1E1E] leading-13.5 pb-8">
                 Our{" "}
                 <span className="font-tri font-bold text-[48px] text-primary leading-13.5 tracking-[0.2px] italic">
                   Services
@@ -34,7 +34,7 @@ const Service = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-7.5 mt-15">
+            <div className="flex justify-center gap-7.5 mt-15">
               <div className="p-7.5 bg-linear-to-r from-[#FFFFFF] to-[#FFE7E7] rounded-[20px] shadow-[0px_34px_44px_0px_rgba(0,0,0,0.02)]">
                 <div className="p-4 rounded-[20px] bg-[#FFF7EB] w-28">
                   <Image
