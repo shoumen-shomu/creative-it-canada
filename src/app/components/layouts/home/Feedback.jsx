@@ -97,14 +97,14 @@ const Feedback = () => {
                     <div className="flex gap-4 items-center">
                       <Image
                         className="pb-4 pt-6"
-                        src="/images/reviewthree.png"
-                        alt="reviewthree"
+                        src="/images/reviewfour.png"
+                        alt="reviewfour"
                         width={60}
                         height={60}
                       />
                       <div className="">
                         <h5 className="font-inter font-bold  text-[20px] text-[#000000] leading-[150%]">
-                          Sifat Kazi
+                          Fazle Rabby Sakib
                         </h5>
                         <p className="font-inter font-normal text-[18px] text-[#7E7E7E] leading-[150%]">
                           Student of Web Development
@@ -123,14 +123,14 @@ const Feedback = () => {
                     <div className="flex gap-4 items-center">
                       <Image
                         className="pb-4 pt-6"
-                        src="/images/reviewthree.png"
-                        alt="reviewthree"
+                        src="/images/reviewfive.png"
+                        alt="reviewfive"
                         width={60}
                         height={60}
                       />
                       <div className="">
                         <h5 className="font-inter font-bold  text-[20px] text-[#000000] leading-[150%]">
-                          Sifat Kazi
+                          Emdad Ahmed 
                         </h5>
                         <p className="font-inter font-normal text-[18px] text-[#7E7E7E] leading-[150%]">
                           Student of Web Development
