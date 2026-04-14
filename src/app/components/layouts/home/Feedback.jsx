@@ -59,7 +59,30 @@ const Feedback = () => {
                     </p>
                   </div>
                 </div>
-                <div className=""></div>
+                <div className="">
+                  <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-146.25">
+                      Creative It changed my life. They just took a place into
+                      heart. Already few of my friends are student their because
+                      recommend to take courses. Cause they have really
+                      professional trainers to guide you to success. Thanks for
+                      changing my life creative it institute.
+                    </p>
+                    <Image
+                      className="pb-4 pt-6"
+                      src="/images/reviewthree.png"
+                      alt="reviewthree"
+                      width={60}
+                      height={60}
+                    />
+                    <h5 className="font-inter font-bold  text-[20px] text-[#000000] leading-[150%]">
+                      Md Uzzal Hossain
+                    </h5>
+                    <p className="font-inter font-normal text-[18px] text-[#7E7E7E] leading-[150%]">
+                      Student of Web Development
+                    </p>
+                  </div>
+                </div>
                 <div className=""></div>
               </div>
             </div>
