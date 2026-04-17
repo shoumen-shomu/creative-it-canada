@@ -5,6 +5,7 @@ import About from './components/layouts/home/About'
 import Service from './components/layouts/home/Service'
 import Feedback from './components/layouts/home/Feedback'
 import Virtualimg from './components/layouts/home/Virtualimg'
+import Companies from './components/layouts/home/Companies'
 
 const page = () => {
   return (
@@ -14,7 +15,7 @@ const page = () => {
       <About/>
       <Service/>
       <Feedback/>
-      <Virtualimg/>
+      <Companies/>
     </>
   )
 }
