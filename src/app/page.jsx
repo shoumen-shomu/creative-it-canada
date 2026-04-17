@@ -15,6 +15,7 @@ const page = () => {
       <About/>
       <Service/>
       <Feedback/>
+      <Virtualimg/>
       <Companies/>
     </>
   )
