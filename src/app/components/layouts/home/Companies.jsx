@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../Container";
+import Image from "next/image";
 
 const Companies = () => {
   return (
@@ -33,6 +34,11 @@ const Companies = () => {
               </p>
             </div>
           </div>
+          <Container>
+            <div className="mt-25">
+              <Image src="/images/allinstitute.png" alt="allinstitute" width={1313} height={425}/>
+            </div>
+          </Container>
         </Container>
       </section>
     </>
