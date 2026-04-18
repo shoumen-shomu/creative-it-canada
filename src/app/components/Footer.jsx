@@ -3,7 +3,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+
+    <footer className='pt-93 pb-10 bg-[#1F1E1E]'>
+
+    </footer>
+    
   )
 }
 
