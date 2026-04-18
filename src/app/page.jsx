@@ -6,6 +6,7 @@ import Service from './components/layouts/home/Service'
 import Feedback from './components/layouts/home/Feedback'
 import Virtualimg from './components/layouts/home/Virtualimg'
 import Companies from './components/layouts/home/Companies'
+import Newslatter from './components/layouts/home/Newslatter'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <Feedback/>
       <Virtualimg/>
       <Companies/>
+      <Newslatter/>
     </>
   )
 }
