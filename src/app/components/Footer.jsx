@@ -3,6 +3,7 @@ import React from "react";
 import Container from "./Container";
 import { SiGooglemaps } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -130,6 +131,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="w-full py-[0.1px] bg-white/70 mt-20 mb-10"></div>
+        <div className="flex justify-between items-center">
+          <Image src="/images/footerlogo.png" width={203} height={44}/>
+          <p className="font-inter font-normal text-base text-white/70 leading-[26px] tracking-[0.2px]">Copyright © 2026 Creative IT Institute. All right reserved</p>
+            <Image src="/images/creativeslug.png" width={149} height={58}/>
         </div>
       </Container>
     </footer>
