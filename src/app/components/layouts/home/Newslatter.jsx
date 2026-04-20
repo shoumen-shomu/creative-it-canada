@@ -6,7 +6,7 @@ import Image from "next/image";
 const Newslatter = () => {
   return (
     <>
-      <section className="mt-45.5">
+      <section className=" absolute left-1/2 -translate-x-1/2 ">
         <Container>
           <div className="p-25 items-center bg-[#FFF7EB] rounded-[48px] flex justify-between">
             <div className="">

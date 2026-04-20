@@ -5,7 +5,7 @@ import Image from "next/image";
 const Companies = () => {
   return (
     <>
-      <section className="my-25">
+      <section className="mt-25 ">
         <Container>
           <div className="text-center">
             <h2 className="font-tri font-bold text-[48px] text-primary leading-[150%] italic">
