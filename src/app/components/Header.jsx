@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import Container from "./Container";
@@ -10,8 +10,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa6";
+import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <header>
       {/* Top Haeder */}
@@ -34,10 +37,10 @@ const Header = () => {
         </Container>
       </div>
       {/* Header Menu */}
-      <div className="mt-6.75 px-2 lg:px-0">
+      <div className="lg:mt-6.75 px-2 lg:px-0">
         <Container>
-          <div className="lg:flex py-10 items-center justify-between">
-            <div className="flex items-center lg:w-full justify-between">
+          <div className="lg:flex py-10 items-center justify-between cursor-pointer">
+            <div className="flex items-center lg:w-[70%] justify-between">
               {/* Logo  */}
               <div className="">
                 <Link href={"/"}>
@@ -69,10 +72,35 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
+              {/* Menu Overly Part Start */}
+
+              {/* Menu Overly Part End */}
               {/* Mobile Menu */}
-              <div className="">
-                <FaBars onClick={HandleClick} className="lg:hidden" size={30} />
+              <div onClick={() => setShow(!show)} className="lg:hidden">
+                {show ? <RxCross2 size={30} /> : <FaBars size={30} />}
               </div>
+
+              {/* Menu Overlay start */}
+              <div
+                className={`lg:hidden fixed top-0 left-0 w-full h-screen bg-[#050d0d]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${
+                  show ? "translate-y-20" : "-translate-y-full"
+                }`}
+              >
+                {/* Menu Items */}
+                {["home", "aboutus", "services", "service", "freelancing","contact"].map(
+                  (item) => (
+                    <Link
+                      key={item}
+                      href={`#${item}`}
+                      onClick={() => setShow(false)}
+                      className="font-rubik font-medium text-[20px] text-[#ffffff] capitalize hover:text-[#EE5F38] duration-500"
+                    >
+                      {item}
+                    </Link>
+                  ),
+                )}
+              </div>
+              {/* Menu Overlay end */}
             </div>
             <div className="flex gap-3 justify-center mt-5 lg:mt-0">
               <div className="flex justify-center items-center bg-primary rounded-[50%] w-[47.14] h-[47.14] border-white border group hover:bg-white hover:border-[#CF0000] duration-300">
