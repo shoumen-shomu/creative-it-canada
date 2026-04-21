@@ -82,18 +82,18 @@ const Header = () => {
 
               {/* Menu Overlay start */}
               <div
-                className={`lg:hidden fixed top-0 left-0 w-full h-screen bg-[#050d0d]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${
+                className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-white flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${
                   show ? "translate-y-20" : "-translate-y-full"
                 }`}
               >
                 {/* Menu Items */}
-                {["home", "aboutus", "services", "service", "freelancing","contact"].map(
+                {["home", "aboutus", "service", "freelancing","contact"].map(
                   (item) => (
                     <Link
                       key={item}
                       href={`#${item}`}
                       onClick={() => setShow(false)}
-                      className="font-rubik font-medium text-[20px] text-[#ffffff] capitalize hover:text-[#EE5F38] duration-500"
+                      className="font-inter font-medium text-[20px] text-[#EE5F38] capitalize duration-500"
                     >
                       {item}
                     </Link>
