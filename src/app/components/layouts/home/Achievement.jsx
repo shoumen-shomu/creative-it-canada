@@ -14,17 +14,17 @@ const Achievement = () => {
       <section className="mt-25">
         <Container>
           <div className="text-center">
-            <h2 className="font-inter font-bold text-[48px] text-[#1F1E1E] leading-6  mb-15">
+            <h2 className="font-inter font-bold lg:text-[48px] text-[30px] text-[#1F1E1E] leading-6 lg:mb-15 mb-10">
               Showcase Of Our{" "}
               <span className="font-tri font-bold text-primary italic">
                 Achievements
               </span>
             </h2>
-            <div className="flex justify-between">
-              <div className="flex flex-col items-center">
+            <div className="lg:flex justify-between">
+              <div className="lg:flex lg:flex-col items-center">
                 <p
                   ref={ref}
-                  className="font-inter font-extrabold text-[72px] text-primary tabular-nums"
+                  className="font-inter font-extrabold lg:text-[72px] text-[52px] text-primary tabular-nums"
                 >
                   {inView ? (
                     <CountUp
@@ -45,7 +45,7 @@ const Achievement = () => {
               <div className="flex flex-col items-center">
                 <p
                   ref={ref}
-                  className="font-inter font-extrabold text-[72px] text-primary tabular-nums"
+                  className="font-inter font-extrabold lg:text-[72px] text-[52px] text-primary tabular-nums"
                 >
                   {inView ? (
                     <CountUp
@@ -66,7 +66,7 @@ const Achievement = () => {
              <div className="flex flex-col items-center">
                 <p
                   ref={ref}
-                  className="font-inter font-extrabold text-[72px] text-primary tabular-nums"
+                  className="font-inter font-extrabold lg:text-[72px] text-[52px] text-primary tabular-nums"
                 >
                   {inView ? (
                     <CountUp
@@ -87,7 +87,7 @@ const Achievement = () => {
               <div className="flex flex-col items-center">
                 <p
                   ref={ref}
-                  className="font-inter font-extrabold text-[72px] text-primary tabular-nums"
+                  className="font-inter font-extrabold lg:text-[72px] text-[52px] text-primary tabular-nums"
                 >
                   {inView ? (
                     <CountUp
