@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <>
       <section>
-        <div className="mt-2 px-2 lg:px-0">
+        <div className="lg:mt-25 mt-10 px-2 lg:px-0">
           <Container>
             <div className="text-center">
               <h2 className="font-inter font-bold lg:text-[48px] text-[30px] text-[#1F1E1E] leading-13.5 pb-8">
