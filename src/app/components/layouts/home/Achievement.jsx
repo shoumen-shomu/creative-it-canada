@@ -6,8 +6,8 @@ import { useInView } from "react-intersection-observer";
 
 const Achievement = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // একবারই এনিমেশন হবে
-    threshold: 0.5, // ৫০% দেখা গেলে শুরু হবে
+    triggerOnce: true, 
+    threshold: 0.5,
   });
   return (
     <>
