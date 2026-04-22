@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <section>
-        <div className="lg:w-360 w-full bg-[#F7FCE7] rounded-3xl pt-9.5 pb-15 mt-25 mx-auto">
+        <div className="lg:w-360 w-full bg-[#F7FCE7] rounded-3xl pt-9.5 pb-15 mt-25 mx-auto px-2 lg:px-0">
           <Container>
             <div className=" lg:flex block lg:justify-between items-center">
               <div className="">

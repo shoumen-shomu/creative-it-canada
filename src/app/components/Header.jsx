@@ -87,18 +87,15 @@ const Header = () => {
                 }`}
               >
                 {/* Menu Items */}
-                {["home", "aboutus", "service", "freelancing","contact"].map(
+                {
+                ["home", "aboutus", "service", "freelancing","contact"].map(
                   (item) => (
-                    <Link
-                      key={item}
-                      href={`#${item}`}
-                      onClick={() => setShow(false)}
-                      className="font-inter font-medium text-[20px] text-[#EE5F38] capitalize duration-500"
-                    >
+                    <Link key={item} href={`#${item}`} onClick={() => setShow(false)} className="font-inter font-medium text-[20px] text-[#EE5F38] capitalize duration-500">
                       {item}
                     </Link>
                   ),
-                )}
+                )
+                }
               </div>
               {/* Menu Overlay end */}
             </div>
