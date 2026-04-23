@@ -7,19 +7,19 @@ const Feedback = () => {
   return (
     <>
       <section>
-        <div className="mt-25 bg-[#FBFBFB]">
+        <div className="mt-25 px-2 lg:px-0 bg-[#FBFBFB]">
           <Container>
             <div className="pt-25">
-              <h2 className="font-inter font-bold text-[48px] text-[#1F1E1E] leading-[120%] text-center">
+              <h2 className="font-inter font-bold lg:text-[48px] text-[30px] text-[#1F1E1E] leading-[120%] text-center">
                 Our Clients{" "}
-                <span className="font-tri font-bold text-[48px] text-primary leading-[120%] italic">
+                <span className="font-tri font-bold lg:text-[48px] text-[30px] text-primary leading-[120%] italic">
                   Feedback
                 </span>
               </h2>
-              <div className="mt-15 flex gap-7.5">
+              <div className="mt-15 grid lg:grid-cols-3 grid-cols-1 gap-7.5">
                 <div className="space-y-7.5">
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-66.75">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-66.75 w-full">
                       Creative IT is one of the top institutes for learning
                       .they teach us in a highly informative manner while also
                       providing a conducive learning environment.
@@ -39,7 +39,7 @@ const Feedback = () => {
                     </p>
                   </div>
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-66.75">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-66.75 w-full">
                       Creative IT is one of best IT Institute in Bangladesh. As
                       a student of CIT, i must say teachers here are realy very
                       dedicated and no one can be left out without great results
@@ -62,7 +62,7 @@ const Feedback = () => {
                 </div>
                 <div className="space-y-7.5">
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-146.25">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-146.2 w-full">
                       Creative It changed my life. They just took a place into
                       heart. Already few of my friends are student their because
                       recommend to take courses. Cause they have really
@@ -88,7 +88,7 @@ const Feedback = () => {
                     </div>
                   </div>
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-146.25">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-146.2 w-full">
                       Every moment,the static image of many organizations floats
                       in front of the eyes.But creative IT seems to be the best
                       from the beginning. By taking classes here,I feel more
@@ -115,7 +115,7 @@ const Feedback = () => {
                     </div>
                   </div>
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-146.25">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-146.2 w-full5">
                       Creative IT Institute is a great place for me to gain
                       knowledge and learn a lots of things which is unexpectedly
                       awesome. I love CITI for support me and also thanks for
@@ -141,8 +141,8 @@ const Feedback = () => {
                   </div>
                 </div>
                 <div className="space-y-7.5">
-                  <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-66.75">
+                <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-66.75 w-full">
                       Creative IT is one of the top institutes for learning
                       graphics design; they teach us in a highly informative
                       manner while also providing a conducive learning
@@ -163,7 +163,7 @@ const Feedback = () => {
                     </p>
                   </div>
                   <div className="p-6 bg-white rounded-xl border border-[#D4D4D4]">
-                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] w-66.75">
+                    <p className="font-inter font-normal text-base text-[#605F62] leading-[150%] lg:w-66.75 w-full">
                       I like Creative IT very much because here the teachers
                       explain it very nicely and if I face any problem they
                       solve my problem very easily & quickly and also their
