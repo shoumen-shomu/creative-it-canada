@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <footer className="pt-15 pb-10 bg-[#1F1E1E]">
       <Container>
-        <div className="flex justify-between">
+        <div className="lg:flex lg:justify-between text-center lg:text-left space-y-20 lg:space-y-0">
           <div className="space-y-7.5">
             <h4 className="font-inter font-bold text-[21px] text-white leading-8.25 tracking-[0.2px]">
               Contact Us
             </h4>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center lg:justify-start text-left">
               <div className="w-9.25 h-9.25 flex justify-center items-center bg-[#695C49] rounded-[50%] ">
                 <SiGooglemaps size={20} className="text-white" />
               </div>
@@ -28,21 +28,21 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center lg:justify-start text-left ">
               <div className="w-9.25 h-9.25 flex justify-center items-center bg-[#695C49] rounded-[50%] ">
                 <SiGooglemaps size={20} className="text-white" />
               </div>
               <div className="">
                 <h5 className="font-tri font-bold text-[24px] text-white/70 leading-[150%] italic">
-                  Head Office
+                  Canada Office
                 </h5>
                 <p className="w-54 font-inter font-medium text-base text-white leading-[150%] pt-2">
                   Momtaz Plaza (4th Floor)House # 07 , Road # 04Dhanmondi,
-                  Dhaka- 1205
+                  Canada
                 </p>
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center lg:justify-start">
               <div className="w-9.25 h-9.25 flex justify-center items-center bg-[#695C49] rounded-[50%] ">
                 <IoIosMail size={20} className="text-white" />
               </div>
@@ -133,10 +133,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full py-[0.1px] bg-white/70 mt-20 mb-10"></div>
-        <div className="flex justify-between items-center">
-          <Image src="/images/footerlogo.png" width={203} height={44}/>
-          <p className="font-inter font-normal text-base text-white/70 leading-[26px] tracking-[0.2px]">Copyright © 2026 Creative IT Institute. All right reserved</p>
-            <Image src="/images/creativeslug.png" width={149} height={58}/>
+        <div className="lg:flex lg:justify-between lg:items-center space-y-3 text-center">
+          <div className="flex justify-center items-center">
+            <Image src="/images/footerlogo.png" width={203} height={44} />
+          </div>
+          <p className="font-inter font-normal lg:text-base text-[14px] text-white/70 leading-6.5 tracking-[0.2px]">
+            Copyright © 2026 Creative IT Institute. All right reserved
+          </p>
+          <div className="flex justify-center items-center">
+            <Image src="/images/creativeslug.png" width={149} height={58} />
+          </div>
         </div>
       </Container>
     </footer>
