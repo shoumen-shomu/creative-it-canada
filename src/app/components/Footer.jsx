@@ -4,6 +4,7 @@ import Container from "./Container";
 import { SiGooglemaps } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -59,22 +60,22 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Branding Identity Design
+                 <Link href={"/"}>Branding Identity Design</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Logo Design
+                 <Link href={"/"}>Logo Design</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                App Development
+                 <Link href={"/"}>App Development</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Digital Marketing
+                 <Link href={"/"}>Digital Marketing</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Search Engine Optimization
+                 <Link href={"/"}>Search Engine Optimization</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Web Design
+                <Link href={"/"}>Web Design</Link>
               </li>
             </ul>
           </div>
@@ -84,22 +85,27 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Web Development
+                <Link href={"/"}>Web Development</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Graphic Design
+                 <Link href={"/"}>Graphic Design
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Digital Marketing
+                 <Link href={"/"}>Digital Marketing
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Mern Stack Development
+                <Link href={"/"}>Mern Stack Development
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Motion Graphics
+                <Link href={"/"}>Motion Graphics
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Professional 3D Animation
+                 <Link href={"/"}>Professional 3D Animation
+</Link>
               </li>
             </ul>
           </div>
@@ -109,25 +115,30 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                About Us
+                 <Link href={"/"}>About Us
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Our Facility
+                 <Link href={"/"}>Our Facility
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Our Achievement
+                 <Link href={"/"}>Our Achievement
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Career Placement
+                 <Link href={"/"}>Career Placement
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Freelancing
+                <Link href={"/"}>Freelancing</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Students Feedback
+                 <Link href={"/"}>Students Feedback
+</Link>
               </li>
               <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
-                Contact
+                 <Link href={"/"}>Contact</Link>
               </li>
             </ul>
           </div>
