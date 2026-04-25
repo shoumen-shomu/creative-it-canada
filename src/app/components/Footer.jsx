@@ -11,7 +11,7 @@ const Footer = () => {
       <Container>
         <div className="flex justify-between">
           <div className="space-y-7.5">
-            <h4 className="font-inter font-bold text-[21px] text-white leading-8.25 tracking-[0.2px] ">
+            <h4 className="font-inter font-bold text-[21px] text-white leading-8.25 tracking-[0.2px]">
               Contact Us
             </h4>
             <div className="flex gap-4">
@@ -47,7 +47,7 @@ const Footer = () => {
                 <IoIosMail size={20} className="text-white" />
               </div>
               <div className="">
-                <p className="w-[216px] font-inter font-medium text-base text-white leading-[150%] pt-2">
+                <p className="w-54 font-inter font-medium text-base text-white leading-[150%] pt-2">
                   info@creativeitinstitute.com
                 </p>
               </div>
@@ -58,22 +58,22 @@ const Footer = () => {
               Our Services
             </h4>
             <ul className="space-y-3">
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Branding Identity Design
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Logo Design
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 App Development
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Digital Marketing
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Search Engine Optimization
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Web Design
               </li>
             </ul>
