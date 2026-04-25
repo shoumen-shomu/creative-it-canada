@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="pt-93 pb-10 bg-[#1F1E1E]">
+    <footer className="pt-15 pb-10 bg-[#1F1E1E]">
       <Container>
         <div className="flex justify-between">
           <div className="space-y-7.5">
