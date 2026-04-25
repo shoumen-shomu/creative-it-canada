@@ -83,22 +83,22 @@ const Footer = () => {
               Popular Courses
             </h4>
             <ul className="space-y-3">
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Web Development
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Graphic Design
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Digital Marketing
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Mern Stack Development
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Motion Graphics
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Professional 3D Animation
               </li>
             </ul>
@@ -108,25 +108,25 @@ const Footer = () => {
               Others
             </h4>
             <ul className="space-y-3">
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 About Us
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Our Facility
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Our Achievement
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Career Placement
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Freelancing
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Students Feedback
               </li>
-              <li className="font-tri font-medium text-base text-white/70 leading-[32px] tracking-[0.2px]">
+              <li className="font-tri font-medium text-base text-white/70 leading-8 tracking-[0.2px]">
                 Contact
               </li>
             </ul>
