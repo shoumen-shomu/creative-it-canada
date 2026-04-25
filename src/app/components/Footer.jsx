@@ -23,7 +23,7 @@ const Footer = () => {
                   Head Office
                 </h5>
                 <p className="w-54 font-inter font-medium text-base text-white leading-[150%] pt-2">
-                  Momtaz Plaza (4th Floor)House # 07 , Road # 04Dhanmondi,
+                  Momtaz Plaza (4th Floor)House # 07 , Road # 04 Dhanmondi,
                   Dhaka- 1205
                 </p>
               </div>
