@@ -36,7 +36,7 @@ const Newslatter = () => {
                 />
               </div>
             </div>
-            <div className="">
+            <div className="hidden lg:block">
               <Image
                 src="/images/newsletterImg.png"
                 alt="newsletterImg"

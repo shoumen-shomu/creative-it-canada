@@ -15,20 +15,20 @@ const Companies = () => {
               Are Connected to Us
             </p>
           </div>
-          <div className="mt-14.5 p-2 border-[#D9D9D9] border rounded-[37px] flex lg:w-200  mx-auto items-center">
-            <div className="group py-4 lg:px-16 px-3.5 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
+          <div className="mt-14.5 p-2 border-[#D9D9D9] border rounded-[37px] flex lg:w-200 mx-auto items-center">
+            <div className="group py-4 lg:px-16 px-3 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
               <p className="font-inter font-semibold lg:text-[24px] text-base text-[#000000] group-hover:text-white leading-tight tracking-[0.2px] whitespace-nowrap">
                 Working with
               </p>
             </div>
 
-            <div className="group py-4 lg:px-16 px-3.5 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
+            <div className="group py-4 lg:px-16 px-3 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
               <p className="font-inter font-semibold lg:text-[24px] text-base text-[#000000] group-hover:text-white leading-tight tracking-[0.2px] whitespace-nowrap">
                 Members of
               </p>
             </div>
 
-            <div className="group py-4 lg:px-16 px-3.5 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
+            <div className="group py-4 lg:px-16 px-3 bg-white rounded-[29px] hover:bg-primary duration-300 cursor-pointer transition-all">
               <p className="font-inter font-semibold lg:text-[24px] text-base text-[#000000] group-hover:text-white leading-tight tracking-[0.2px] whitespace-nowrap">
                 Our Concerns
               </p>

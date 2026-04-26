@@ -28,7 +28,7 @@ const Service = () => {
                   Courses
                 </p>
               </div>
-              <div className="group py-4 px-16 bg-white text-white border-white rounded-[29px] border hover:border-primary hover:bg-primary duration-300 inline-block cursor-pointer">
+              <div className="group py-4 lg:px-16 px-12 bg-white text-white border-white rounded-[29px] border hover:border-primary hover:bg-primary duration-300 inline-block cursor-pointer">
                 <p className="font-inter font-semibold lg:text-[24px] text-[20px] text-[#000000] group-hover:text-white leading-6.5 tracking-[0.2px] ">
                   Projects
                 </p>
